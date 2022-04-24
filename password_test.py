@@ -15,7 +15,7 @@ class TestUser(unittest.TestCase):
         '''
         Set up method to run each test case.
         '''
-        self.new_user = User("Adele", "ade123!") #Creates user object
+        self.new_user = User("Adele", "Ade123!") #Creates user object
 
 
     def tearDown(self):
@@ -32,7 +32,7 @@ class TestUser(unittest.TestCase):
         '''
 
         self.assertEqual(self.new_user.username,"Adele")
-        self.assertEqual(self.new_user.password,"ade123!")
+        self.assertEqual(self.new_user.password,"Ade123!")
 
 
 class TestCredentials(unittest.TestCase):
@@ -48,7 +48,7 @@ class TestCredentials(unittest.TestCase):
         Set up method to run each test case.
         '''
 
-        self.new_credentials = Credentials("Twitter", "thePhi", "Monsq!h!997") #Creates credentials object
+        self.new_credentials = Credentials("Twitter", "Adele", "Ade123!") #Creates credentials object
 
     
     def tearDown(self):
