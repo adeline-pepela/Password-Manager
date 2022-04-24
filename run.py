@@ -21,7 +21,6 @@ def create_credentials(aname,ausername,apassword):
     new_credentials = Credentials(aname,ausername,apassword)
     return new_credentials
 
-
 #Save credentials
 def save_credentials(credentials):
     '''
