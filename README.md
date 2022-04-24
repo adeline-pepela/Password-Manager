@@ -1,7 +1,7 @@
 # PasswordManager
 This application allows users to manage and generate new passwords when needed.
 
-#### By Adeline MAkokha
+#### By Adeline Makokha
 
 ## Description
 PasswordManager enables users to manage passwords for numerous accounts. A user can create a password locker account using their username and password details. Additionally, they can store credentials for existing accounts, create credentials for new accounts, generate passwords for new accounts, and allow users to put their password. Also, users can view the credentials and passwords of their accounts, and delete credentials for accounts that they no longer need.
@@ -18,11 +18,11 @@ The current application contains no bugs
 * Python
 
 ## Suport and Contact Details
-Email: dennis.njeru@student.moringaschool.com
-Linkedin: https://www.linkedin.com/in/dennis-gitonga-227246193/
+Email:adelinemakokha@gmail.com
+
 
 
 ### License
 [GNU GPL v3.0](./LICENSE)
 
-Copyright (c) [2021] **Dennis Njeru**
+Copyright (c) [2022] **Adeline Makokha**
