@@ -1,7 +1,7 @@
 # PasswordManager
 This application allows users to manage and generate new passwords when needed.
 
-#### By Dennis Njeru
+#### By Adeline MAkokha
 
 ## Description
 PasswordManager enables users to manage passwords for numerous accounts. A user can create a password locker account using their username and password details. Additionally, they can store credentials for existing accounts, create credentials for new accounts, generate passwords for new accounts, and allow users to put their password. Also, users can view the credentials and passwords of their accounts, and delete credentials for accounts that they no longer need.
