@@ -2,7 +2,6 @@
 from password import User
 from password import Credentials
 
-
 #Create an account
 def create_user(username,password):
     '''
