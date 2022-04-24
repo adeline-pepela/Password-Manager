@@ -62,9 +62,9 @@ def display_credentials():
 
 #Function to call the other functions
 def main():
-    print("Hello, Welcome to your Password Manager. Kindly input your username and password")
+    print("Hello, Welcome to your Password Manager. Kindly input your username")
     username = input()
-    password = input()
+    
 
     print(f"Hello {username}. What would you like to do?")
     print('/n')
