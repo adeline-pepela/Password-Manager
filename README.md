@@ -1,4 +1,4 @@
-# Password Manager
+# PasswordManager
 This application allows users to manage and generate new passwords when needed.
 
 #### By Adeline Makokha
@@ -22,7 +22,7 @@ The user would like to.... :
 ## Installation / Setup instruction
 
 #### The application requires the following installations to operate 
-* python3.8
+* python3.6
 * pyperclip
 * pip
 
@@ -51,6 +51,7 @@ The user would like to.... :
 |Select  cc| input username and password| Hello ```username```, Your account has been created succesfully! Your password is: ```password```|
 |Select cc  | Enter your password and username you signed up with| Abbreviations menu to help you navigate through the application|
 
+|Display all stored credentials | Enter ```DC```|A list of all credentials that has been stored or ```You don't have any credentials saved yet``` |
 |Find a stored credential based on account name|Enter ```fc```| Enter the Account Name you want to search for and returns the account details|
 |Delete an existing credential that you don't want anymore|Enter ```dlc```|Enter the account name of the Credentials you want to delete and returns true if the account has been deleted and false if the account doesn't exixt|
 |Exit the application| Enter ```ex```| The application exits|
@@ -70,6 +71,4 @@ Email:adelinemakokha@gmail.com
 ### License
 [GNU GPL v3.0](./LICENSE)
 
-Copyright (c) [2022] 
-
-**Adeline Makokha**
+Copyright (c) [2022] **Adeline Makokha**
