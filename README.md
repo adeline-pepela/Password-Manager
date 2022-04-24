@@ -1,4 +1,4 @@
-# PasswordManager
+# Password Manager
 This application allows users to manage and generate new passwords when needed.
 
 #### By Adeline Makokha
@@ -22,7 +22,7 @@ The user would like to.... :
 ## Installation / Setup instruction
 
 #### The application requires the following installations to operate 
-* python3.6
+* python3.8
 * pyperclip
 * pip
 
