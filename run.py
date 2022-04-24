@@ -11,7 +11,6 @@ def create_user(username,password):
     new_user = User(username,password)
     return new_user
 
-
 #Create a new credential
 def create_credentials(aname,ausername,apassword):
     '''
