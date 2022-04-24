@@ -31,8 +31,8 @@ class TestUser(unittest.TestCase):
         test init test case to test the proper initialization of user and credentials objects.
         '''
 
-        self.assertEqual(self.new_user.username,"Monsqih")
-        self.assertEqual(self.new_user.password,"monsq!H!997")
+        self.assertEqual(self.new_user.username,"Adele")
+        self.assertEqual(self.new_user.password,"ade123!")
 
 
 class TestCredentials(unittest.TestCase):
