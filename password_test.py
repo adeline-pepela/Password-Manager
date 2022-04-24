@@ -107,7 +107,7 @@ class TestCredentials(unittest.TestCase):
         '''
 
         self.new_credentials.save_credentials()
-        test_credentials = Credentials("Facebook", "Kata-naah", "n@4HK@t4")
+        test_credentials = Credentials("Facebook", "Hildah", "n@4HK@t4")
         test_credentials.save_credentials()
 
         found_credentials = Credentials.find_credentials_by_account_name("Facebook") #new credential
