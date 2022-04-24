@@ -48,7 +48,7 @@ class TestCredentials(unittest.TestCase):
         Set up method to run each test case.
         '''
 
-        self.new_credentials = Credentials("Twitter", "Adele", "Ade123!") #Creates credentials object
+        self.new_credentials = Credentials("Twitter", "Adeline", "Ade123!") #Creates credentials object
 
     
     def tearDown(self):
