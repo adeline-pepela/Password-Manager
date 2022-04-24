@@ -15,7 +15,7 @@ class TestUser(unittest.TestCase):
         '''
         Set up method to run each test case.
         '''
-        self.new_user = User("Monsqih", "monsq!H!997") #Creates user object
+        self.new_user = User("Adele", "ade123!") #Creates user object
 
 
     def tearDown(self):
