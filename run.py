@@ -28,7 +28,6 @@ def save_credentials(credentials):
 
     credentials.save_credentials()
 
-
 #Delete credentials
 def delete_credentials(credentials):
     '''
@@ -36,7 +35,6 @@ def delete_credentials(credentials):
     '''
 
     credentials.delete_credentials()
-
 
 #Finding credentials
 def find_credential(aname):
@@ -66,6 +64,7 @@ def display_credentials():
 def main():
     print("Hello, Welcome to your Password Manager. Kindly input your username and password")
     username = input()
+    password = input()
 
     print(f"Hello {username}. What would you like to do?")
     print('/n')
@@ -141,11 +140,11 @@ def main():
 
 
         elif short_code == 'ex':
-            print("Thanks for choosing PasswordManager!")
+            print("Thanks for choosing Password Manager!")
             break
 
         else: 
-            print("PasswordManager really did not get that. Please use the short codes")
+            print("Password Manager really did not get that. Please use the short codes")
 
 
 if __name__ == '__main__':
