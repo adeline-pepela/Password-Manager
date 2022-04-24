@@ -83,7 +83,7 @@ class TestCredentials(unittest.TestCase):
         '''
 
         self.new_credentials.save_credentials()
-        test_credentials = Credentials("Facebook","Kata-naah", "n@4HK@t4")
+        test_credentials = Credentials("Facebook","adeline-pepela", "Pepela123!")
         test_credentials.save_credentials()
         self.assertEqual(len(Credentials.credentials_list),2)
 
@@ -94,7 +94,7 @@ class TestCredentials(unittest.TestCase):
         '''
         
         self.new_credentials.save_credentials()
-        test_credentials = Credentials("Instagram", "Toshphi", "t0sHpH!") #new credential
+        test_credentials = Credentials("Instagram", "Amalia", "Makokha123!") #new credential
         test_credentials.save_credentials()
 
         self.new_credentials.delete_credentials() #Deleting a credentials object
