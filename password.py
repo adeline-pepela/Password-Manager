@@ -96,6 +96,6 @@ class Credentials:
         Method returns the entire credentials list
         '''
 
-        return cls.credentials
+        return cls.credentials_list
 
         pass

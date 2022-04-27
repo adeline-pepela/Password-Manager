@@ -1,6 +1,9 @@
 #!/usr/bin/env python3.8
 from password import User
 from password import Credentials
+import random
+import string
+chars="abcdefghijklmopqrstuvwxyzABCDEFGHIJKLMOPQRSTUVWXYZ123456789!@#$&"
 
 #Create an account
 def create_user(username,password):
@@ -59,6 +62,7 @@ def display_credentials():
     Function that returns all the saved credentials.
     '''
     return Credentials.display_credentials()
+    
 
 #Function to call the other functions
 def main():
@@ -67,7 +71,7 @@ def main():
     
 
     print(f"Hello {username}. What would you like to do?")
-    print('/n')
+    print('\n')
 
     while True:
         print("Use these short codes: cc - create new credentials, dc - display credentials, dlc - delete existing credentials, fc - find credentials, ex -exit the credentials list ")
@@ -84,31 +88,41 @@ def main():
             print("Account Username .....")
             a_username = input()
 
-            print("Account Password .....")
-            a_password = input()
+            print("Can we generate a password for you ..Y/N Y(yes) and N(No)")
+            accountpassword = input()
+            if accountpassword == "Y":
+                print("provide the length of your password e.g 10")
+                password_length = int(input())
+                passwordcharacters = string.ascii_letters +string.digits
+                accountpassword = "".join(random.choice(passwordcharacters )for i in range(password_length))
+                 
+            elif accountpassword == "N":
+                print("Please provide your security password ....")
+                accountpassword = input()       
+            # print("Account Password .....")
+            # a_password = input()
 
 
-            save_credentials(create_credentials(a_name, a_username, a_password)) #Create and save new credentials
-            print('/n')
-            print(f"New Credential {a_name} {a_username} {a_password} created")
-            print('/n')
+            save_credentials(create_credentials(a_name, a_username, accountpassword)) #Create and save new credentials
+            
+            print(f"New Credential {a_name}\n {a_username}\n {accountpassword}\n has been created")
+           
 
 
         elif short_code == 'dc':
-
             if display_credentials():
                 print("Here is a list of all your credentials")
-                print('/n')
+                print('\n')
 
                 for credentials in display_credentials():
                     print(f"{credentials.account_name} {credentials.account_username} {credentials.account_password}")
-                    print('/n')
+                    print('\n')
 
             else:
 
-                print('/n')
+                print('\n')
                 print("Password Manager does not contain any saved credentials")
-                print('/n')
+                print('\n')
 
         elif short_code == 'fc':
             print("Enter the account name you want to search for")
